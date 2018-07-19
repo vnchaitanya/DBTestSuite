@@ -20,8 +20,8 @@ function CheckExitStatus
 function LogMsg
 {
     now=`date`
-    echo $now "$1"
-    echo $now "$1" >> $LogFile
+    echo $now ": $1"
+    echo $now ": $1" >> $LogFile
 }
 ##########################################################
 #
